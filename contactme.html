@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100vh;
+        background-color: #e98585;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 23px;
+        padding: 4px 0px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form .inputs {
+        padding: 5px 0px;
+    }
+
+    input {
+        margin: 0px 5px;
+    }
+
+    .btn button {
+        padding: 4px 10px;
+        border-radius: 10px;
+        background-color: #e06960;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #bd6a64;
+        color: black;
+    }
+
+    input {
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        /* background: none; */
+        outline: none;
+        border: 1px solid grey;
+        border-radius: 5px;
+        
+    }
+</style>
+
+<body>
+    <h3>Contact Me</h3>
+    <form action="">
+        <div class="inputs">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Enter Message...">
+        </div>
+        <div class="btn inputs">
+            <button>Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
