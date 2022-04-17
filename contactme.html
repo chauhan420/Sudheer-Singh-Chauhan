@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <script src="https://kit.fontawesome.com/7766090485.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
     * {
         margin: 0;
         padding: 0;
@@ -20,70 +19,79 @@
         background-color: #e98585;
     }
 
-    h3 {
-        text-align: center;
-        font-size: 23px;
-        padding: 4px 0px;
-        font-family:'Times New Roman', Times, serif;
-    }
-
-    form {
-        margin-top: 0px;
+    .container {
+        
+        height: 100vh;
+        width: 100vw;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: baseline;
         align-items: center;
-
+       text-align: center;
     }
-
-    form .inputs {
-        padding: 5px 0px;
+    hr{
+        width: 40%;
     }
-
-    input {
-        margin: 0px 5px;
+    .name{
+        padding: 8px 0px;
     }
-
-    .btn button {
-        padding: 4px 10px;
-        border-radius: 10px;
-        background-color: #e06960;
-        font-weight: bold;
-        cursor: pointer;
+    h3 {
+        text-align: center;
+        font-size: 28px;
+        padding: 7px 0px;
+        font-family:'Times New Roman', Times, serif;
     }
-
-    button:hover {
-        background-color: #bd6a64;
-        color: black;
+    h4{
+        padding-left:10px;
     }
-
-    input {
-        font-size: 16px;
-        margin-top: 10px;
-        padding: 3px 10px;
-        /* background: none; */
-        outline: none;
-        border: 1px solid grey;
-        border-radius: 5px;
-        
+    .items{
+        display: flex;
+        align-items: center;
     }
+    .boxes{
+        padding: 0px 80px;
+    }
+   .item{
+       display: flex;
+       padding: 5px 0px;
+   }
+   a{
+       text-decoration: none;
+       color: black;
+   }
 </style>
 
 <body>
-    <h3>Contact Me</h3>
-    <form action="">
-        <div class="inputs">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
+    
+    <div class="container">
+        <h3>Contact</h3>
+        <hr>
+        <div class="name">
+            <h4>Sudheer Singh Chauhan</h4>
         </div>
-        <div class="inputs">
-            <input type="text" placeholder="Subject">
-            <input type="text" placeholder="Enter Message...">
+        <div class="items">
+            <div class="boxes">
+                <div class="item">
+                    <i class="fa fa-envelope"></i>
+                    <h4>g7sudheer@gmail.com</h4>
+                </div>
+                <div class="item">
+                    <i class="fa fa-mobile"></i>
+                    <h4>+919889158953</h4>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="item">
+                    <i class="fa fa-github-square"></i>
+                    <h4><a href="https://www.linkedin.com/in/sudheer-singh-chauhan-597b6a1b2" target="_blank">linkedIn</a></h4>
+                </div>
+                <div class="item">
+                    <i class="fa fa-linkedin-square"></i>
+                    <h4><a href="https://github.com/chauhan420" target="_blank">GitHub</a></h4>
+                </div>
+            </div>
         </div>
-        <div class="btn inputs">
-            <button>Submit</button>
-        </div>
-    </form>
+    </div>
 
 </body>
 
